@@ -1,12 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Level : MonoBehaviour {
+public class Level : MonoBehaviour
+{
 	/// <summary>
 	/// The bloc prefab.
 	/// </summary>
 	public GameObject blocPrefab;
-
 	/// <summary>
 	/// The paddle.
 	/// </summary>
@@ -18,12 +18,14 @@ public class Level : MonoBehaviour {
 
 
 	// Use this for initialization
-	void Start () {
+	void Start ()
+	{
 
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+	{
 
 	}
 }

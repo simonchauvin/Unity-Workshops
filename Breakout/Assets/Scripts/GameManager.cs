@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class GameManager : MonoBehaviour {
+public class GameManager : MonoBehaviour
+{
 	/// <summary>
 	/// The position of the menu.
 	/// </summary>
@@ -21,7 +22,8 @@ public class GameManager : MonoBehaviour {
 	public bool paused { get; private set; }
 
 	// Use this for initialization
-	void Start () {
+	void Start ()
+	{
 		// Init
 		menuSize = new Vector2(150, 150);
 		buttonSize = new Vector2(100, 30);
@@ -30,7 +32,8 @@ public class GameManager : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+	{
 		// Pause and unpause the game
 		if (Input.GetButtonDown("Pause Menu"))
 		{
@@ -38,7 +41,8 @@ public class GameManager : MonoBehaviour {
 		}
 	}
 
-	void OnGUI () {
+	void OnGUI ()
+	{
 		if (paused)
 		{
 			// Show and unlock cursor to use the menu

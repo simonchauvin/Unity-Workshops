@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Player : MonoBehaviour {
+public class Player : MonoBehaviour
+{
 	/// <summary>
 	/// The score of the player.
 	/// </summary>
@@ -16,12 +17,14 @@ public class Player : MonoBehaviour {
 	public GUIText livesLabel;
 
 	// Use this for initialization
-	void Start () {
+	void Start ()
+	{
 		score = 0;
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+	{
 		// Update the score label
 		scoreLabel.text = "Score: " + score;
 	}
