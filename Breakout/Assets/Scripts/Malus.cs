@@ -3,11 +3,15 @@ using System.Collections;
 
 public class Malus : MonoBehaviour
 {
+	/// <summary>
+	/// The ball.
+	/// </summary>
+	private GameObject ball;
 
 	// Use this for initialization
 	void Start ()
 	{
-	
+		ball = GameObject.Find("Ball");
 	}
 	
 	// Update is called once per frame

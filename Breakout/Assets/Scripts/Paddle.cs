@@ -6,12 +6,12 @@ public class Paddle : MonoBehaviour
 	/// <summary>
 	/// The speed at which the paddle moves.
 	/// </summary>
-	public float speed = 10f;
+	public float speed;
 
 	// Use this for initialization
 	void Start ()
 	{
-		
+
 	}
 	
 	// Update is called once per frame

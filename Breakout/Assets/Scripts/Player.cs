@@ -10,15 +10,20 @@ public class Player : MonoBehaviour
 	/// <summary>
 	/// The score label.
 	/// </summary>
-	public GUIText scoreLabel;
+	private GUIText scoreLabel;
 	/// <summary>
 	/// The lives label.
 	/// </summary>
-	public GUIText livesLabel;
+	private GUIText livesLabel;
 
 	// Use this for initialization
 	void Start ()
 	{
+		// Labels
+		scoreLabel = GameObject.Find("ScoreLabel").guiText;
+		livesLabel = GameObject.Find("LivesLabel").guiText;
+
+		// Init
 		score = 0;
 	}
 	

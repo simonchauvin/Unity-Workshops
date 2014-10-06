@@ -10,17 +10,17 @@ public class Level : MonoBehaviour
 	/// <summary>
 	/// The paddle.
 	/// </summary>
-	public GameObject paddle;
+	private GameObject paddle;
 	/// <summary>
 	/// The ball.
 	/// </summary>
-	public GameObject ball;
-
+	private GameObject ball;
 
 	// Use this for initialization
 	void Start ()
 	{
-
+		paddle = GameObject.Find("Paddle");
+		ball = GameObject.Find("Ball");
 	}
 	
 	// Update is called once per frame
