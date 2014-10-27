@@ -21,7 +21,7 @@ public class InvadersManager : MonoBehaviour
 
 	}
 
-	public void moveInvadersCloser ()
+	public void moveInvadersCloser (bool rightTrigger)
 	{
 
 	}
